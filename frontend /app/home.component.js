@@ -24,7 +24,8 @@ var HomeComponent = (function () {
 HomeComponent = __decorate([
     core_1.Component({
         selector: 'home',
-        template: "\n        <h3>Login Succesfull!!</h3>\n        <button class=\"btn btn-primary\" (click)=\"logout()\">Logout</button> \n    "
+        templateUrl: 'app/home.component.html',
+        styles: ["\n\n    \t\t\t.container{\n    \t\t\t\tposition  : fixed; \n    \t\t    \ttop : 0; \n    \t\t    \twidth :100%;\n    \t\t    \theight : 5px;\n    \t\t    \tmargin :0;\n    \t\t    \tpadding :0;\n    \t\t\t}\n\n    \t\t    .topnav {\n\t\t\t\t    background-color: #A9A9A9;\n\t\t\t\t    overflow: hidden;\t\n\t\t\t\t}\n\n\t\t\t\t/* Style the links inside the navigation bar */\n\t\t\t\t.topnav a {\n\t\t\t\t    float: right;\n\t\t\t\t    display: block;\n\t\t\t\t    color: #f2f2f2;\n\t\t\t\t    text-align: center;\n\t\t\t\t    padding: 20px 16px;\n\t\t\t\t    text-decoration: none;\n\t\t\t\t    font-size: 17px;\n\t\t\t\t}\n\n\t\t\t\t/* Change the color of links on hover */\n\t\t\t\t.topnav a:hover {\n\t\t\t\t    background-color: #696969;\n\t\t\t\t    color: white;\n\t\t\t\t}\n\n\t\t\t\t/* Add a color to the active/current link */\n\t\t\t\t.topnav a.active {\n\t\t\t\t    background-color: #4CAF50;\n\t\t\t\t    color: white;\n\t\t\t\t}\n    "]
     }),
     __metadata("design:paramtypes", [router_1.Router])
 ], HomeComponent);
